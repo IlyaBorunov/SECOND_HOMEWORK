@@ -76,7 +76,7 @@ timer_sec = int(input('Введите кол-во секунд:'))
 
 
 hours = timer_sec // 3600
-minutes = (timer_sec % 3600)// 6015
+minutes = (timer_sec % 3600)// 60
 seconds = timer_sec % 60
 
 print(hours, minutes, seconds, sep = ':')
