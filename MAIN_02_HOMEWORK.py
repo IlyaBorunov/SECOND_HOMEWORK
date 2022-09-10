@@ -68,3 +68,15 @@ thi_num = needed_numb % 10
 print(thi_num, sec_num, fir_num, sep='')
 
 print('------------------------------------------------------------------------')
+
+# Решение 4 задачи)))))
+
+timer_sec = int(input('Введите кол-во секунд:'))
+
+
+
+hours = timer_sec // 3600
+minutes = (timer_sec % 3600)// 6015
+seconds = timer_sec % 60
+
+print(hours, minutes, seconds, sep = ':')
