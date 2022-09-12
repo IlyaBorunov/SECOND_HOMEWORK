@@ -65,7 +65,7 @@ fir_num = needed_numb // 100
 sec_num = needed_numb // 10 % 10
 thi_num = needed_numb % 10
 
-print(thi_num, sec_num, fir_num, sep='')
+print(thi_num*100+sec_num*10+fir_num)
 
 print('------------------------------------------------------------------------')
 
